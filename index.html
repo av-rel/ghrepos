@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script defer src="./ghrepos.js"></script>
+	<script defer src="./index.js"></script>
+</head>
+<body>
+	<h1>Github UserRepo List Fetcher</h1>
+	<form>
+		<div>
+		<input type="text" name="uname" required>
+		<button type="submit">Get</button>
+	</form>
+	<div id="repos">
+		<h2>Total Repos: <span id="ctr"></span></h1>
+		<h3 id="speed"></h1>
+		<ul id="list"></ul>
+	</div>
+</body>
+</html>
